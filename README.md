@@ -71,5 +71,6 @@ Gambar menggunakan akun dan data contoh dari database latihan, bukan data sekola
 - ![Rekap presensi](docs/screenshots/rekap.png)
 ## halaman pencarian
 - ![Pencarian](docs/screenshots/pencarian.png)
+## halaman di bagian HP
 - ![Tampilan HP: login](docs/screenshots/hp-login.png)
 - ![Tampilan HP: siswa](docs/screenshots/hp-siswa.png)
