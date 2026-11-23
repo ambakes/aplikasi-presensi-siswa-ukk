@@ -59,7 +59,7 @@ Tampilan pada lebar layar 390 piksel juga diperiksa untuk login, kelas, siswa, t
 Gambar menggunakan akun dan data contoh dari database latihan, bukan data sekolah yang sebenarnya.
 
 ## halaman login
-- [Halaman login](docs/screenshots/login.png)
+- ![Halaman login](docs/screenshots/login.png)
 ## halaman dashboard
 - [Dashboard](docs/screenshots/dashboard.png)
 ## halaman kelas
