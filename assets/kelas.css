@@ -1,0 +1,236 @@
+.kelas-page {
+    padding: 1rem 0 2rem;
+    color: #17233d;
+}
+
+.kelas-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.kelas-heading h2 {
+    margin: 0;
+    color: #1e3a8a;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+.kelas-heading p, .kelas-help {
+    color: #58657b;
+    font-size: .92rem;
+    line-height: 1.5;
+}
+
+.kelas-heading p {
+    margin: .45rem 0 0;
+}
+
+.kelas-count {
+    color: #52627d;
+    font-size: .85rem;
+    white-space: nowrap;
+}
+
+.kelas-layout {
+    display: grid;
+    grid-template-columns: minmax(240px, .8fr) minmax(0, 1.4fr);
+    align-items: start;
+    gap: 1rem;
+}
+
+.kelas-panel {
+    min-width: 0;
+    background: #fff;
+    border: 1px solid #dfe6f2;
+    border-radius: .8rem;
+    padding: 1.3rem;
+}
+
+.kelas-panel h3 {
+    margin: 0;
+    color: #1e3a8a;
+    font-size: 1.1rem;
+}
+
+.kelas-help {
+    margin: .4rem 0 1.2rem;
+}
+
+.kelas-form p {
+    margin: 0 0 1rem;
+}
+
+.kelas-form label {
+    display: inline-block;
+    margin-bottom: .4rem;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.kelas-form input {
+    width: 100%;
+    min-height: 44px;
+    padding: .65rem .75rem;
+    border: 1px solid #bdc9da;
+    border-radius: .45rem;
+    font: inherit;
+    color: #17233d;
+}
+
+.kelas-form input:focus {
+    outline: 3px solid #bfdbfe;
+    border-color: #2b4fb8;
+}
+
+.kelas-save {
+    min-height: 44px;
+    padding: .65rem 1rem;
+    border: 0;
+    border-radius: .45rem;
+    background: #1e3a8a;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.kelas-save:hover {
+    background: #162f70;
+}
+
+.kelas-cancel {
+    display: inline-block;
+    margin-left: .65rem;
+    color: #1e3a8a;
+}
+
+.kelas-error {
+    display: inline-block;
+    margin-top: .4rem;
+    color: #a12f2f;
+    font-size: .85rem;
+}
+
+.kelas-notice {
+    padding: .8rem 1rem;
+    border: 1px solid #c4d4ef;
+    border-radius: .5rem;
+    background: #eef4ff;
+    color: #1e3a8a;
+}
+
+.kelas-empty {
+    color: #58657b;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.kelas-table-wrap {
+    overflow-x: auto;
+}
+
+.kelas-page table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: .92rem;
+}
+
+.kelas-page th {
+    padding: .7rem .5rem;
+    color: #58657b;
+    font-size: .8rem;
+    font-weight: 600;
+    border-bottom: 1px solid #dfe6f2;
+}
+
+.kelas-page td {
+    padding: .85rem .5rem;
+    border-bottom: 1px solid #edf1f7;
+    vertical-align: middle;
+    overflow-wrap: anywhere;
+}
+
+.kelas-page td:last-child {
+    white-space: nowrap;
+}
+
+.kelas-page td a, .kelas-page td button {
+    color: #1e3a8a;
+    font: inherit;
+    font-weight: 600;
+}
+
+.kelas-page td button {
+    min-height: 40px;
+    padding: .4rem .5rem;
+    border: 0;
+    background: transparent;
+    color: #a12f2f;
+    cursor: pointer;
+}
+
+.kelas-page a:focus-visible, .kelas-page button:focus-visible {
+    outline: 3px solid #93c5fd;
+    outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+    .kelas-heading {
+        align-items: start;
+        flex-direction: column;
+    }
+    .kelas-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .kelas-panel {
+        padding: 1rem;
+    }
+    .kelas-save {
+        width: 100%;
+    }
+    .kelas-page table {
+        min-width: 420px;
+    }
+}
+
+.presensi-select, .presensi-filter input, .presensi-filter select {
+    width: 100%;
+    min-height: 44px;
+    padding: .65rem .75rem;
+    border: 1px solid #bdc9da;
+    border-radius: .45rem;
+    font: inherit;
+    color: #17233d;
+    background: #fff;
+}
+
+.presensi-filter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: .8rem;
+}
+
+.presensi-filter p {
+    margin: 0;
+    flex: 1 1 180px;
+}
+
+.presensi-filter label {
+    display: block;
+    margin-bottom: .4rem;
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.presensi-narrow {
+    max-width: 520px;
+}
+
+.presensi-section-title {
+    margin-top: 2rem !important;
+}

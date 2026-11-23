@@ -67,4 +67,3 @@ Gambar menggunakan akun dan data contoh dari database latihan, bukan data sekola
 - [Pencarian](docs/screenshots/pencarian.png)
 - [Tampilan HP: login](docs/screenshots/hp-login.png)
 - [Tampilan HP: siswa](docs/screenshots/hp-siswa.png)
-
