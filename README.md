@@ -61,15 +61,15 @@ Gambar menggunakan akun dan data contoh dari database latihan, bukan data sekola
 ## halaman login
 - ![Halaman login](docs/screenshots/login.png)
 ## halaman dashboard
-- [Dashboard](docs/screenshots/dashboard.png)
+- ![Dashboard](docs/screenshots/dashboard.png)
 ## halaman kelas
-- [Kelola kelas](docs/screenshots/kelas.png)
-- [Kelola siswa](docs/screenshots/siswa.png)
+- ![Kelola kelas](docs/screenshots/kelas.png)
+- ![Kelola siswa](docs/screenshots/siswa.png)
 ## halaman simulasi tap
-- [Simulasi tap](docs/screenshots/tap.png)
+- ![Simulasi tap](docs/screenshots/tap.png)
 ## halaman presensi
-- [Rekap presensi](docs/screenshots/rekap.png)
+- ![Rekap presensi](docs/screenshots/rekap.png)
 ## halaman pencarian
-- [Pencarian](docs/screenshots/pencarian.png)
-- [Tampilan HP: login](docs/screenshots/hp-login.png)
-- [Tampilan HP: siswa](docs/screenshots/hp-siswa.png)
+- ![Pencarian](docs/screenshots/pencarian.png)
+- ![Tampilan HP: login](docs/screenshots/hp-login.png)
+- ![Tampilan HP: siswa](docs/screenshots/hp-siswa.png)
